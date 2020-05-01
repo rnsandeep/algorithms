@@ -12,7 +12,7 @@ def edit_dst(val1, val2):
         if val1[i] == val2[i]:
             dst = edit_dst(val1[i+1:], val2[i+1:])
         else:
-            dst = min(1 + edit_dst(val1[i+1:], val2[i+1:]), 1 + edit_dst(val1[i+1:], val2), 1+ edit_dst(val1, val2))
+            dst = min(1 + edit_dst(val1[i+1:], val2[i+1:]), 1 + edit_dst(val1[i+1:], val2), 1+ edit_dst(val1, val2[i+1:]))
             #      change                                     cutting                           adding
 
     if n > q:
