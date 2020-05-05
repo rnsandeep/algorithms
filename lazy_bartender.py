@@ -1,3 +1,4 @@
+# problem explantion: https://medium.com/analytics-vidhya/lazy-bartender-problem-return-the-fewest-number-of-drinks-he-must-learn-in-order-to-satisfy-all-549777e83496
 preferences1 = {
         0:[0,1,3,6],
         1:[1,4,7],
